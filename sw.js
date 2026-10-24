@@ -1,6 +1,6 @@
 'use strict';
 const PREFIX='traffic-plc-'+encodeURIComponent(self.registration.scope)+'-';
-const CACHE=PREFIX+'20261013-v1';
+const CACHE=PREFIX+'20261023-v4';
 const ASSETS=['./','./index.html','./manifest.webmanifest','./icon192.png','./icon512.png','./apple-touch-icon.png'];
 const urls=ASSETS.map(path=>new URL(path,self.registration.scope).href);
 self.addEventListener('install',event=>event.waitUntil((async()=>{
